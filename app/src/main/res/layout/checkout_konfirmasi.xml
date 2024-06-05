@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="22dp">
+
+    <ImageView
+        android:id="@+id/arrow_konfirmasi"
+        android:layout_width="27dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="361dp"
+        android:layout_marginBottom="659dp"
+        android:src="@drawable/arrowput"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/judul_konfirmasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="159dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="666dp"
+        android:text="Checkout"
+        android:textColor="#FEFEFE"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/cart_konfirmasi"
+        android:layout_width="50dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="345dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="653dp"
+        android:src="@drawable/troli"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/gambar_confrim_konfirmasi"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="89dp"
+        android:layout_marginEnd="301dp"
+        android:layout_marginBottom="607dp"
+        android:src="@drawable/booking"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_confrim_konfirmasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="299dp"
+        android:layout_marginBottom="593dp"
+        android:text="Konfirmasi"
+        android:textColor="#FEFEFE"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/line_confrim_konfirmasi"
+        android:layout_width="58dp"
+        android:layout_height="1dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginBottom="710dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/gambar_payment_konfirmasi"
+        app:layout_constraintHorizontal_bias="0.319"
+        app:layout_constraintStart_toEndOf="@+id/gambar_confrim_konfirmasi"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.125" />
+
+    <ImageView
+        android:id="@+id/gambar_payment_konfirmasi"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="185dp"
+        android:layout_marginTop="89dp"
+        android:layout_marginEnd="186dp"
+        android:layout_marginBottom="607dp"
+        android:src="@drawable/payment"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_payment_konfirmasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="178dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="178dp"
+        android:layout_marginBottom="593dp"
+        android:text="Pembayaran"
+        android:textColor="#FEFEFE"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/line_review_konfirmasi"
+        android:layout_width="58dp"
+        android:layout_height="1dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginBottom="710dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/gambar_review_konfirmasi"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toEndOf="@+id/gambar_payment_konfirmasi"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.125" />
+
+    <ImageView
+        android:id="@+id/gambar_review_konfirmasi"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="89dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="607dp"
+        android:src="@drawable/review"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_review_konfirmasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="303dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="593dp"
+        android:text="Review"
+        android:textColor="#FEFEFE"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/kotak_chekoutlist_konfirmasi"
+        android:layout_width="358dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="163dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="469dp"
+        android:src="@drawable/kotak_putih"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/gambar_checkoutlist_konfirmasi"
+        android:layout_width="117dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="163dp"
+        android:layout_marginEnd="255dp"
+        android:layout_marginBottom="470dp"
+        android:src="@drawable/vvip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/judul_cheoutlist_konfirmasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="176dp"
+        android:layout_marginEnd="154dp"
+        android:layout_marginBottom="533dp"
+        android:text="FANet VVIP"
+        android:textColor="#1E1F2E"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/durasi_checkoutlist_konfirmasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="201dp"
+        android:layout_marginEnd="141dp"
+        android:layout_marginBottom="508dp"
+        android:text="Durasi: 2 Jam"
+        android:textColor="#9C9C9C"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/harga_checkoutlist_konfirmasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="229dp"
+        android:layout_marginEnd="163dp"
+        android:layout_marginBottom="480dp"
+        android:text="Rp. 30000"
+        android:textColor="#1E1F2E"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_minus_konfirmasi"
+        android:layout_width="60dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="252dp"
+        android:layout_marginTop="223dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="474dp"
+        android:backgroundTint="#FAFAFA"
+        android:text="-"
+        android:textColor="#7C7878"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/banyak_checkoutlist_konfirmasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="312dp"
+        android:layout_marginTop="229dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginBottom="475dp"
+        android:text="2"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_plus_konfirmasi"
+        android:layout_width="60dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="323dp"
+        android:layout_marginTop="223dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="474dp"
+        android:backgroundTint="#FAFAFA"
+        android:text="+"
+        android:textColor="#7C7878"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/kotak_checkout_konfirmasi"
+        android:layout_width="413dp"
+        android:layout_height="348dp"
+        android:layout_marginTop="436dp"
+        android:src="@drawable/kotak_putihnew"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/total_checkout_konfirmasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="465dp"
+        android:layout_marginEnd="336dp"
+        android:layout_marginBottom="244dp"
+        android:text="Total"
+        android:textColor="#1E1F2E"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/booking_checkout_konfirmasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="285dp"
+        android:layout_marginBottom="209dp"
+        android:text="Booking Fee"
+        android:textColor="#1E1F2E"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/jumlahtotal_checkout_konfirmasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="293dp"
+        android:layout_marginTop="465dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="239dp"
+        android:text="Rp. 30000"
+        android:textAlignment="textEnd"
+        android:textColor="#1C1B1B"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/jumlahbooking_checkout_konfirmasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="304dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="204dp"
+        android:text="Rp. 5000"
+        android:textAlignment="textEnd"
+        android:textColor="#1C1B1B"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/line_checkout_konfirmasi"
+        android:layout_width="342dp"
+        android:layout_height="1dp"
+        android:layout_margin="20dp"
+        android:background="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/subtotal_checkout_konfirmasi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="@+id/kotak_checkout_konfirmasi"
+        app:layout_constraintTop_toTopOf="@+id/kotak_checkout_konfirmasi"
+        app:layout_constraintVertical_bias="0.9" />
+
+    <TextView
+        android:id="@+id/subtotal_checkout_konfirmasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="577dp"
+        android:layout_marginEnd="281dp"
+        android:layout_marginBottom="122dp"
+        android:text="Subtotal"
+        android:textColor="#1E1F2E"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/jumlahsubtotal_checkout_konfirmasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="293dp"
+        android:layout_marginTop="577dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="127dp"
+        android:text="Rp. 35000"
+        android:textAlignment="textEnd"
+        android:textColor="#1C1B1B"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_checkout_konfirmasi"
+        android:layout_width="263dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="634dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="41dp"
+        android:backgroundTint="#102543"
+        android:text="Confirm Order"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

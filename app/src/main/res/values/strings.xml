@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tubes Pemob</string>
+    <string-array name="Negara">
+        <item>Indonesia</item>
+        <item>Inggris</item>
+    </string-array>
+</resources>
