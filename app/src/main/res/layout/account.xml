@@ -125,22 +125,26 @@
         android:id="@+id/logo_notifikasi"
         android:layout_width="30dp"
         android:layout_height="22dp"
+        android:layout_marginTop="379dp"
         android:layout_marginBottom="16dp"
         android:src="@drawable/bell4"
         app:layout_constraintBottom_toTopOf="@+id/logo_bahasa"
         app:layout_constraintEnd_toStartOf="@+id/notifikasi_profil"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/kotak_bgprofil" />
+        app:layout_constraintStart_toStartOf="@+id/kotak_bgprofil"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/ubah_profil"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
         android:layout_marginEnd="272dp"
         android:text="Ubah Profil"
         android:textColor="#FEFEFE"
         app:layout_constraintBottom_toTopOf="@+id/notifikasi_profil"
         app:layout_constraintEnd_toEndOf="@+id/kotak_bgprofil"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/kotak_bgprofil"
         app:layout_constraintVertical_bias="0.49" />
 
@@ -148,52 +152,70 @@
         android:id="@+id/bahasa_profil"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="423dp"
         android:layout_marginEnd="180dp"
         android:layout_marginBottom="16dp"
         android:text="Bahasa"
         android:textColor="#FEFEFE"
         app:layout_constraintBottom_toBottomOf="@+id/kotak_bgprofil"
-        app:layout_constraintEnd_toStartOf="@+id/indo_profil" />
+        app:layout_constraintEnd_toStartOf="@+id/indo_profil"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/nyala_profil"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="325dp"
+        android:layout_marginTop="387dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="325dp"
         android:text="Nyala"
         android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="325dp"
-        tools:layout_editor_absoluteY="387dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/logo_bahasa"
         android:layout_width="23dp"
         android:layout_height="25dp"
+        android:layout_marginTop="417dp"
         android:layout_marginBottom="16dp"
         android:src="@drawable/bahasa"
         app:layout_constraintBottom_toBottomOf="@+id/kotak_bgprofil"
         app:layout_constraintEnd_toStartOf="@+id/bahasa_profil"
         app:layout_constraintHorizontal_bias="0.181"
-        app:layout_constraintStart_toStartOf="@+id/kotak_bgprofil" />
+        app:layout_constraintStart_toStartOf="@+id/kotak_bgprofil"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/notifikasi_profil"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="383dp"
         android:layout_marginEnd="212dp"
         android:layout_marginBottom="20dp"
         android:text="Notifikasi"
         android:textColor="#FEFEFE"
         app:layout_constraintBottom_toTopOf="@+id/bahasa_profil"
-        app:layout_constraintEnd_toStartOf="@+id/nyala_profil" />
+        app:layout_constraintEnd_toStartOf="@+id/nyala_profil"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/indo_profil"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="282dp"
         android:text="Bahasa Indonesia"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="@+id/kotak_bgprofil"
         app:layout_constraintEnd_toEndOf="@+id/kotak_bgprofil"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nyala_profil" />
 
     <ImageView
